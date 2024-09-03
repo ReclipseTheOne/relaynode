@@ -1,9 +1,16 @@
 
-### The message object currently has 4 sections of metadata:
+## The message object is of 2 types:
+  - Node
+  - Message
 
-1.  Type:
-	- "node": Is processed as a handshake to create a new peer connection and has a 5th metadata field called `socketAddress` for the node URI.
-	- "message": Is processed normally through the [[Connection Queue]]
-2.  nodeUUID
-3.  message
-4.  connectionQueue
+### The node message is used in creating peer handshakes and sending info about the node and has these metadata fields:
+ - MessageQueue -> `List<String>`
+ - Message -> `String` (Encrypted)
+ - NodeUUID -> `UUID`
+ - SocketAddress -> `String`
+ - PublicKey -> `PublicKey`
+
+### The normal message is just a simple text and is simpler in structure:
+ - MessageQueue -> `List<String>`
+ - Message -> `String` (Encrypted)
+

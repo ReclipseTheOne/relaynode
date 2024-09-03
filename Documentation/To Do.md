@@ -7,4 +7,4 @@
  - [ ] Path Discovery
 	 - [ ] Implement [BFS (Breadth-First Search)](https://en.wikipedia.org/wiki/Breadth-first_search) algorithm
  - [ ] Encryption
-	 - [ ] Implement RSA2048 encryption 
+	 - [x] Implement RSA2048 encryption 
