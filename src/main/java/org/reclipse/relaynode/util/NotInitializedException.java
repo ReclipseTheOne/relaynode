@@ -1,4 +1,4 @@
-package org.relay.relaynode.util;
+package org.reclipse.relaynode.util;
 
 public class NotInitializedException extends RuntimeException {
 

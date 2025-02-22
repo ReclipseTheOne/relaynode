@@ -1,4 +1,4 @@
-package org.relay.relaynode.handlers;
+package org.reclipse.relaynode.handlers;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;

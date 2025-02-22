@@ -1,4 +1,4 @@
-package org.relay.relaynode.util;
+package org.reclipse.relaynode.util;
 
 import java.io.File;
 import java.io.IOException;

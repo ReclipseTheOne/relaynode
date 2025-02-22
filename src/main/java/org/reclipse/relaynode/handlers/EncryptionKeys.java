@@ -1,4 +1,4 @@
-package org.relay.relaynode.handlers;
+package org.reclipse.relaynode.handlers;
 
 import java.security.KeyFactory;
 import java.security.NoSuchAlgorithmException;

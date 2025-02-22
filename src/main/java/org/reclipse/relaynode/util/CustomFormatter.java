@@ -1,4 +1,4 @@
-package org.relay.relaynode.util;
+package org.reclipse.relaynode.util;
 
 import java.util.logging.Formatter;
 import java.util.logging.LogRecord;
